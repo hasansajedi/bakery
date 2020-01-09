@@ -22,4 +22,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            pipenv run pytest back/test_bakery.py
+            pipenv run pytest test_bakery.py
